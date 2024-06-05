@@ -1,0 +1,72 @@
+.main-container {
+    width: 800px; /* Increased width */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.questions {
+    margin-top: 50px;
+    margin-bottom: 30px; /* Increased margin */
+    font-size: 24px; /* Increased font size */
+    color: #333;
+}
+
+/* White board styles */
+.question-board {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Increased gap */
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.options div {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px; /* Increased padding */
+    border-radius: 8px; /* Increased border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.options div:hover {
+    background-color: #0056b3;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; /* Increased margin */
+}
+
+.btns button {
+    width: 150px; /* Increased button width */
+    padding: 12px; /* Increased padding */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+}
+
+.previous {
+    background-color: #ffc107;
+}
+
+.next {
+    background-color: #28a745;
+}
+
+.finish {
+    background-color: #007bff;
+    color: white;
+}
+
+.quit {
+    background-color: #dc3545;
+}
